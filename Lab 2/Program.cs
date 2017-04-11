@@ -33,15 +33,22 @@ namespace Lab_2
             int i;
             Console.Write("Enter a number between 1 and 100: \n");
             i = int.Parse(Console.ReadLine());
-            if (i % 2 == 0)
+            if (i % 2 != 0)
             {
-                Console.Write("Entered Number is {0} and even", i);
+                Console.WriteLine("Entered Number is {0} and odd", i);
                 Console.Read();
             }
             else
             {
-                Console.Write("Entered Number is {0} and odd", i);
-                Console.Read();
+                if (i >= 2 && i < 25)
+                {
+                    Console.WriteLine("Entered number is even and less than 25");
+                }
+                else if (i >= 26)
+                {
+                    Console.WriteLine("Number is even!");
+                    Console.Read();
+                }
             }
         }
     }

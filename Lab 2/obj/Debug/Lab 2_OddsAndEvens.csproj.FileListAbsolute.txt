@@ -1,0 +1,6 @@
+C:\Users\HP\Documents\Visual Studio 2015\Projects\Lab 2\Lab 2\bin\Debug\Lab 2.exe.config
+C:\Users\HP\Documents\Visual Studio 2015\Projects\Lab 2\Lab 2\bin\Debug\Lab 2.exe
+C:\Users\HP\Documents\Visual Studio 2015\Projects\Lab 2\Lab 2\bin\Debug\Lab 2.pdb
+C:\Users\HP\Documents\Visual Studio 2015\Projects\Lab 2\Lab 2\obj\Debug\Lab 2_OddsAndEvens.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2015\Projects\Lab 2\Lab 2\obj\Debug\Lab 2.exe
+C:\Users\HP\Documents\Visual Studio 2015\Projects\Lab 2\Lab 2\obj\Debug\Lab 2.pdb

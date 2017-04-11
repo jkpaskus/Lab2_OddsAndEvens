@@ -10,6 +10,10 @@ namespace Lab_2
     {
         static void Main(string[] args)
         {
+            //the run variable will control the do while loop
+            bool run = true;
+
+
             ////input
             //DateTime input;
             //Console.Write("Enter a number between 1 and 100: ");
@@ -31,25 +35,36 @@ namespace Lab_2
             //-------------------------------------------------------------------------------------
 
             int i;
-            Console.Write("Enter a number between 1 and 100: \n");
-            i = int.Parse(Console.ReadLine());
-            if (i % 2 != 0)
+
+            do
             {
-                Console.WriteLine("Entered Number is {0} and odd", i);
-                Console.Read();
-            }
-            else
-            {
-                if (i >= 2 && i < 25)
+                Console.Write("Enter a number between 1 and 100: \n");
+                i = int.Parse(Console.ReadLine());
+                if (i % 2 != 0)
                 {
-                    Console.WriteLine("Entered number is even and less than 25");
+                    Console.WriteLine("Entered Number is {0} and odd", i);
+                    //Console.Read();
                 }
-                else if (i >= 26)
+                else
                 {
-                    Console.WriteLine("Number is even!");
-                    Console.Read();
+                    if (i >= 2 && i < 25)
+                    {
+                        Console.WriteLine("Entered number is even and less than 25");
+                    }
+                    else if (i >= 26)
+                    {
+                        Console.WriteLine("Number is even!");
+    //                    Console.Read();
+                    }
                 }
+
+                Console.WriteLine("Do you want to continue?");
+
+                string input = Console.ReadLine();
+                    if (input.ToLower() == "no")
+                    run = false;
+
+            } while (run);
             }
-        }
-    }
+     }
 }
